@@ -203,7 +203,8 @@ class DatabaseService {
 
   Future<List<Supplement>> getAllSupplements() async {
     final db = await database;
-    final maps = await db.query('supplements', orderBy: 'name ASC');
+    // Sort by importance (highest first), then by name alphabetically
+    final maps = await db.query('supplements', orderBy: 'importance DESC, name ASC');
     return maps.map((map) => Supplement.fromMap(map)).toList();
   }
 

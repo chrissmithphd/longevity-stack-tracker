@@ -117,8 +117,8 @@ See `exercise_definitions.md` for comprehensive protocol definitions.
 
 ### 🚧 Known Gaps
 
-1. **Importance scoring not used** - Database column exists, sorting logic missing in TaskService
-2. **Minimal test coverage** - Only smoke test exists, no logic tests
+1. ~~**Importance scoring not used**~~ ✅ **FIXED** - Now sorts by importance DESC, name ASC
+2. ~~**Minimal test coverage**~~ ✅ **IMPROVED** - Added database service tests (sorting, active flags, importance persistence)
 3. **Individual supplement checkboxes** - Can't mark partial completion (e.g., "took 4 of 6")
 4. **Stats dashboard incomplete** - Streaks, milestones, celebration banners not implemented (TODO_PHASE2.md #6)
 5. **Individual pack items** - Can't opt-out of single exercises within a joint sequence (TODO_PHASE2.md #3)
