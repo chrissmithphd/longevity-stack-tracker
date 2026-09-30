@@ -1,0 +1,21 @@
+{
+  "supplements": [
+    { "id":"creatine", "name":"Creatine monohydrate", "dose":"3–5 g", "timing_rule":"with_first_meal", "food_required":true, "notes":"muscle+brain; pairs well with strength/VO2", "importance":7 },
+    { "id":"omega3", "name":"Omega-3 (EPA+DHA)", "dose":"2 g combined EPA/DHA", "timing_rule":"with_meal", "food_required":true, "notes":"anti-inflammatory; cardiovascular; telomere support", "importance":8 },
+    { "id":"vitd3", "name":"Vitamin D3", "dose":"2000–4000 IU", "timing_rule":"with_first_meal", "food_required":true, "notes":"immune; DNA support; take with fat", "importance":10 },
+    { "id":"k2", "name":"Vitamin K2 (MK-7)", "dose":"100–200 mcg", "timing_rule":"with_first_meal", "food_required":true, "notes":"arterial/bone support", "importance":6 },
+    { "id":"mag_gly", "name":"Magnesium glycinate", "dose":"300–400 mg", "timing_rule":"60_min_before_bed", "food_required":false, "notes":"sleep; nervous system; avoid if it upsets stomach (then take with small snack)", "importance":9 },
+    { "id":"zinc", "name":"Zinc", "dose":"15–30 mg", "timing_rule":"with_first_meal", "food_required":true, "notes":"immune; DNA/cell repair; long-term high dose may require copper planning", "importance":7 },
+
+    { "id":"nmn_nr", "name":"NMN or NR", "dose":"250–500 mg", "timing_rule":"morning_with_or_before_first_meal", "food_required":false, "notes":"NAD+ support; take earlier (avoid late day)", "importance":5 },
+    { "id":"resveratrol", "name":"Resveratrol", "dose":"250–500 mg", "timing_rule":"morning_with_meal_or_fasting_stack", "food_required":false, "notes":"sirtuin signaling; often taken earlier in day", "importance":3 },
+    { "id":"quercetin", "name":"Quercetin", "dose":"500–1000 mg", "timing_rule":"autophagy_day_midmorning", "food_required":false, "notes":"senescent-cell / senolytic-support stack; hydration important", "importance":4 },
+    { "id":"curcumin", "name":"Curcumin (with piperine/black pepper)", "dose":"500–1000 mg", "timing_rule":"with_largest_meal_or_autophagy_stack", "food_required":true, "notes":"anti-inflammatory; take with food unless your product label says otherwise", "importance":2 },
+    { "id":"spermidine", "name":"Spermidine", "dose":"1–6 mg", "timing_rule":"autophagy_day_midmorning", "food_required":false, "notes":"autophagy activation; keep it on autophagy day for focused programming", "importance":6 },
+
+    { "id":"coq10", "name":"CoQ10", "dose":"100–200 mg", "timing_rule":"mitochondria_days_with_meal", "food_required":true, "notes":"mitochondrial support; take with fat", "importance":5 },
+    { "id":"alcarn", "name":"Acetyl-L-carnitine", "dose":"500–1000 mg", "timing_rule":"mitochondria_days_morning", "food_required":false, "notes":"mitochondrial fuel transport; often used before Zone2/VO2", "importance":5 },
+    { "id":"sulforaphane", "name":"Sulforaphane (broccoli sprouts or supplement)", "dose":"food: 1 serving sprouts OR label dose", "timing_rule":"sat_with_meal", "food_required":true, "notes":"Nrf2 activation; detox genes", "importance":7 }
+  ]
+}
+

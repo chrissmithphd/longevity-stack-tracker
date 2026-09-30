@@ -1,0 +1,262 @@
+{
+  "week_schedule": [
+    {
+      "day": "Mon",
+      "events": [
+        { "time":"06:35", "type":"hydration", "details":"Drink 12–16 oz water" },
+        { "time":"06:40", "type":"exercise", "module":"daily_morning_walk" },
+        { "time":"06:45", "type":"exercise", "module":"daily_joint_control_sequence" },
+
+        { "time":"07:00", "type":"caffeine", "details":"Coffee (sweet+creamy allowed). Must finish by 10:30." },
+
+        { "time":"07:30", "type":"meal", "details":"Breakfast / first meal (normal eating day)" },
+        { "time":"07:35", "type":"supplements", "details":[
+          "NMN or NR 250–500 mg (morning)",
+          "Vitamin D3 2000–4000 IU (with food)",
+          "Vitamin K2 MK-7 100–200 mcg (with food)",
+          "Omega-3 EPA+DHA total 2 g (with food)",
+          "Creatine 3–5 g (with food)",
+          "Zinc 15–30 mg (with food)"
+        ]},
+
+        { "time":"19:00", "type":"exercise", "details":"Strength session (Full Body A)", "module":"strength_full_body_A" },
+        { "time":"19:45", "type":"exercise", "details":"Stretch pack A", "module":"stretch_pack_A" },
+
+        { "time":"20:00", "type":"meal", "details":"Dinner (finish all calories by 19:30 preferred; if dinner is later, move dinner earlier or shift workout earlier)" },
+        { "time":"20:05", "type":"supplements", "details":[
+          "Curcumin (with piperine) 500–1000 mg (with dinner)"
+        ]},
+
+        { "time":"21:30", "type":"sleep_prep", "details":"Dim lights, screens low/filtered" },
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30; dark cool room (65–68°F)" }
+      ]
+    },
+
+    {
+      "day": "Tue",
+      "events": [
+        { "time":"06:35", "type":"hydration", "details":"Drink 12–16 oz water" },
+        { "time":"06:40", "type":"exercise", "module":"daily_morning_walk" },
+        { "time":"06:45", "type":"exercise", "module":"daily_joint_control_sequence" },
+
+        { "time":"07:00", "type":"caffeine", "details":"Coffee (sweet+creamy allowed). Must finish by 10:30." },
+
+        { "time":"07:15", "type":"exercise", "details":"Zone 2 cardio 45–60 min", "module":"zone2" },
+
+        { "time":"08:30", "type":"meal", "details":"Breakfast / first meal" },
+        { "time":"08:35", "type":"supplements", "details":[
+          "Resveratrol 250–500 mg",
+          "CoQ10 100–200 mg (with food/fat)",
+          "Acetyl-L-carnitine 500–1000 mg (morning)",
+          "Vitamin D3 2000–4000 IU",
+          "Vitamin K2 100–200 mcg",
+          "Omega-3 2 g EPA+DHA",
+          "Creatine 3–5 g",
+          "Zinc 15–30 mg"
+        ]},
+
+        { "time":"21:00", "type":"exercise", "details":"Stretch pack B", "module":"stretch_pack_B" },
+        { "time":"21:10", "type":"breathing", "module":"breathing_downshift_4_6" },
+
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30" }
+      ]
+    },
+
+    {
+      "day": "Wed",
+      "label": "Autophagy Day (Fasting)",
+      "events": [
+        { "time":"06:35", "type":"hydration", "details":"Drink 16–24 oz water + electrolytes (non-caloric)" },
+        { "time":"06:40", "type":"exercise", "module":"daily_morning_walk" },
+        { "time":"06:45", "type":"exercise", "module":"daily_joint_control_sequence" },
+
+        { "time":"07:00", "type":"caffeine", "details":"Black unsweetened tea OK. No coffee. Stop all caffeine by 13:00." },
+
+        { "time":"10:30", "type":"supplements", "details":[
+          "Spermidine 1–6 mg (fasting-safe)",
+          "Resveratrol 250 mg (fasting-safe)",
+          "Quercetin 500–1000 mg (fasting-safe)",
+          "Curcumin 500 mg (if tolerated without food; otherwise take with first post-fast meal)"
+        ]},
+
+        { "time":"12:00", "type":"exercise", "details":"Easy walking 15–25 min (optional split)", "module":"easy_walk" },
+        { "time":"17:30", "type":"exercise", "details":"Easy walking 15–25 min (optional split)", "module":"easy_walk" },
+
+        {
+          "time":"11:30",
+          "type":"branch",
+          "branch_name":"Break fast (Option A 16h) OR Continue fast (Option B 24h)",
+          "options":[
+            {
+              "option":"A_16h_break_fast",
+              "meal_time":"11:30",
+              "details":"Break fast with protein + fiber meal",
+              "supplements_with_meal":[
+                "Vitamin D3 2000–4000 IU",
+                "Vitamin K2 100–200 mcg",
+                "Omega-3 2 g EPA+DHA",
+                "Creatine 3–5 g",
+                "Zinc 15–30 mg",
+                "Curcumin (if not taken earlier) 500 mg"
+              ]
+            },
+            {
+              "option":"B_24h_break_fast",
+              "meal_time":"19:30",
+              "details":"Break fast at dinner",
+              "supplements_with_meal":[
+                "Vitamin D3 2000–4000 IU",
+                "Vitamin K2 100–200 mcg",
+                "Omega-3 2 g EPA+DHA",
+                "Creatine 3–5 g",
+                "Zinc 15–30 mg",
+                "Curcumin 500 mg"
+              ]
+            }
+          ]
+        },
+
+        { "time":"21:10", "type":"breathing", "module":"breathing_downshift_4_6" },
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30" }
+      ]
+    },
+
+    {
+      "day": "Thu",
+      "label": "Date Day (No fasting)",
+      "events": [
+        { "time":"06:35", "type":"hydration", "details":"Drink 12–16 oz water" },
+        { "time":"06:40", "type":"exercise", "module":"daily_morning_walk" },
+        { "time":"06:45", "type":"exercise", "module":"daily_joint_control_sequence" },
+
+        { "time":"07:00", "type":"caffeine", "details":"Coffee (sweet+creamy allowed). Must finish by 10:30. Tea OK until 13:00." },
+
+        { "time":"07:30", "type":"meal", "details":"Breakfast / first meal" },
+        { "time":"07:35", "type":"supplements", "details":[
+          "NMN or NR 250–500 mg (optional)",
+          "Vitamin D3 2000–4000 IU",
+          "Vitamin K2 100–200 mcg",
+          "Omega-3 2 g EPA+DHA",
+          "Creatine 3–5 g",
+          "Zinc 15–30 mg"
+        ]},
+
+        { "time":"18:30", "type":"exercise", "details":"Light strength (keep it easy)","module":"light_strength_date_day" },
+        { "time":"18:55", "type":"exercise", "details":"Stretch pack C (hip flexor/hamstring/child’s pose)", "module":"stretch_pack_C" },
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30" }
+      ]
+    },
+
+    {
+      "day": "Fri",
+      "label": "VO₂ Max Day",
+      "events": [
+        { "time":"06:35", "type":"hydration", "details":"Drink 12–16 oz water" },
+        { "time":"06:40", "type":"exercise", "module":"daily_morning_walk" },
+        { "time":"06:45", "type":"exercise", "module":"daily_joint_control_sequence" },
+
+        { "time":"07:00", "type":"caffeine", "details":"Coffee (sweet+creamy allowed). Must finish by 10:30." },
+
+        { "time":"07:15", "type":"supplements", "details":[
+          "Acetyl-L-carnitine 500 mg (optional pre-workout)",
+          "CoQ10 100 mg (optional pre-workout, if tolerated)"
+        ]},
+
+        { "time":"07:30", "type":"exercise", "details":"VO₂ max intervals", "module":"vo2max_intervals" },
+
+        { "time":"08:30", "type":"meal", "details":"Breakfast / first meal (include carbs today if desired)" },
+        { "time":"08:35", "type":"supplements", "details":[
+          "Creatine 3–5 g",
+          "Omega-3 2 g EPA+DHA",
+          "Vitamin D3 2000–4000 IU",
+          "Vitamin K2 100–200 mcg",
+          "Zinc 15–30 mg"
+        ]},
+
+        { "time":"21:00", "type":"exercise", "details":"Stretch pack D (quad/calf/supine hamstring)", "module":"stretch_pack_D" },
+        { "time":"21:10", "type":"breathing", "module":"breathing_short_set" },
+
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30" }
+      ]
+    },
+
+    {
+      "day": "Sat",
+      "events": [
+        { "time":"07:00", "type":"hydration", "details":"Drink 12–16 oz water" },
+        { "time":"07:10", "type":"exercise", "details":"Long easy walk 60–90 min", "module":"long_walk" },
+
+        { "time":"08:45", "type":"caffeine", "details":"Coffee allowed (sweet+creamy). Finish by 10:30." },
+
+        { "time":"09:15", "type":"meal", "details":"Breakfast / first meal" },
+        { "time":"09:20", "type":"supplements", "details":[
+          "Sulforaphane: broccoli sprouts serving OR label dose (with meal)",
+          "Creatine 3–5 g",
+          "Omega-3 2 g EPA+DHA",
+          "Vitamin D3 2000–4000 IU",
+          "Vitamin K2 100–200 mcg",
+          "Zinc 15–30 mg"
+        ]},
+
+        {
+          "time":"14:00",
+          "type":"optional",
+          "details":"Sauna (optional): 20 min x 2 rounds; cool down between; hydrate with electrolytes"
+        },
+
+        { "time":"21:10", "type":"breathing", "module":"breathing_6_breaths" },
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30" }
+      ]
+    },
+
+    {
+      "day": "Sun",
+      "label": "Recovery + Optional Short Fast",
+      "events": [
+        { "time":"07:00", "type":"hydration", "details":"Drink 12–16 oz water" },
+        { "time":"07:10", "type":"exercise", "module":"daily_morning_walk" },
+        { "time":"07:15", "type":"exercise", "module":"daily_joint_control_sequence" },
+
+        {
+          "time":"07:30",
+          "type":"branch",
+          "branch_name":"Eating Mode",
+          "options":[
+            {
+              "option":"A_normal_eating",
+              "details":"Normal meals today",
+              "caffeine":"Coffee allowed (finish by 10:30). Tea allowed until 13:00."
+            },
+            {
+              "option":"B_optional_16_18h_fast",
+              "details":"Fast from Sat 19:30 to Sun 12:30–13:30",
+              "caffeine":"Tea only (black/unsweetened) until fast broken; coffee allowed after meal, still finish by 10:30 next day rule applies"
+            }
+          ]
+        },
+
+        { "time":"12:30", "type":"meal", "details":"Lunch / first meal (if fasting option B, this is the break-fast meal)" },
+        { "time":"12:35", "type":"supplements", "details":[
+          "Creatine 3–5 g",
+          "Omega-3 2 g EPA+DHA",
+          "Vitamin D3 2000–4000 IU",
+          "Vitamin K2 100–200 mcg",
+          "Zinc 15–30 mg"
+        ]},
+
+        { "time":"21:00", "type":"exercise", "details":"Stretch pack: hamstring 30s/leg; hip flexor 30s/leg; chest opener 30s; spinal twist 30s/side; child’s pose 60s" },
+        { "time":"21:10", "type":"breathing", "module":"breathing_short_set" },
+
+        { "time":"21:40", "type":"supplements", "details":[ "Magnesium glycinate 300–400 mg" ]},
+        { "time":"22:30", "type":"sleep", "details":"In bed by 22:30 (recovery priority)" }
+      ]
+    }
+  ]
+}
+

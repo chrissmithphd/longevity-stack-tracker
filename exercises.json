@@ -1,0 +1,96 @@
+{
+  "modules": {
+    "daily_morning_walk": {
+      "duration_min": 5,
+      "intensity": "easy",
+      "breathing": "nasal_only",
+      "terrain": "flat_preferred",
+      "outdoor": true,
+      "notes": "done outdoors for light exposure if possible"
+    },
+    "daily_joint_control_sequence": [
+      { "name":"Neck turns", "details":"Turn head left then right; slow; pain-free", "reps":6 },
+      { "name":"Neck tilts", "details":"Tilt ear toward shoulder left/right; slow; pain-free", "reps":6 },
+      { "name":"Cat–Cow", "details":"Hands/knees; round spine then extend; slow", "reps":8 },
+      { "name":"90/90 hip rotations", "details":"Seated; rotate knees side-to-side; control range", "reps":6 },
+      { "name":"Ankle knee-to-wall", "details":"Heel stays down; knee tracks over toes", "reps_per_side":6 },
+      { "name":"Arm circles", "details":"Small-to-medium circles", "reps_forward":6, "reps_backward":6 }
+    ],
+    "strength_full_body_A": [
+      { "name":"Squat OR Leg Press", "sets":3, "reps":5, "rest_sec":150, "effort":"2 reps in reserve" },
+      { "name":"Deadlift OR Hip Hinge", "sets":3, "reps":5, "rest_sec":150, "effort":"2 reps in reserve" },
+      { "name":"Push-ups OR Bench Press", "sets":3, "reps":8, "rest_sec":120, "effort":"2 reps in reserve" },
+      { "name":"Pull-ups OR Lat Pulldown OR Band Row", "sets":3, "reps":8, "rest_sec":120, "effort":"2 reps in reserve" },
+      { "name":"Farmer Carry (loaded carry)", "sets":3, "duration_sec":40, "rest_sec":80, "effort":"challenging but controlled posture" }
+    ],
+    "light_strength_date_day": [
+      { "name":"Sit-to-stand squat", "sets":2, "reps":8, "rest_sec":60, "effort":"easy-moderate" },
+      { "name":"Push-ups (wall or floor)", "sets":2, "reps":8, "rest_sec":60, "effort":"easy-moderate" },
+      { "name":"Band row", "sets":2, "reps":10, "rest_sec":60, "effort":"easy-moderate" }
+    ],
+    "zone2": {
+      "duration_min_range": [45, 60],
+      "modalities": ["brisk walk","bike","row"],
+      "outdoor": true,
+      "talk_test": "can speak full sentences",
+      "breathing": "slightly breathy but controlled",
+      "notes": "outdoor timing adjusted for sunrise/sunset when applicable"
+    },
+    "vo2max_intervals": {
+      "total_duration_min": 25,
+      "rounds": 4,
+      "work_interval_min": 4,
+      "recovery_interval_min": 4,
+      "work_intensity": "very hard; cannot talk; heavy breathing",
+      "recovery_intensity": "easy"
+    },
+    "easy_walk": {
+      "duration_min_range": [25, 30],
+      "intensity": "easy conversational",
+      "outdoor": true,
+      "notes": "used on recovery & fasting days"
+    },
+    "long_walk": {
+      "duration_min_range": [60, 90],
+      "intensity": "easy",
+      "outdoor": true,
+      "notes": "outdoors preferred"
+    },
+    "stretch_pack_A": [
+      { "name":"Seated hamstring stretch", "duration_sec_per_side":30 },
+      { "name":"Standing hip flexor stretch", "duration_sec_per_side":30 },
+      { "name":"Chest opener stretch", "duration_sec_total":30 }
+    ],
+    "stretch_pack_B": [
+      { "name":"Standing calf stretch", "duration_sec_per_side":30 },
+      { "name":"Seated spinal twist", "duration_sec_per_side":30 }
+    ],
+    "stretch_pack_C": [
+      { "name":"Kneeling hip flexor stretch", "duration_sec_per_side":30 },
+      { "name":"Seated hamstring stretch", "duration_sec_per_side":30 },
+      { "name":"Child’s pose", "duration_sec_total":60 }
+    ],
+    "stretch_pack_D": [
+      { "name":"Standing quad stretch", "duration_sec_per_side":30 },
+      { "name":"Standing calf stretch", "duration_sec_per_side":30 },
+      { "name":"Supine hamstring stretch", "duration_sec_per_side":30 }
+    ],
+    "breathing_downshift_4_6": {
+      "duration_min": 5,
+      "pattern": "inhale 4 sec, exhale 6 sec",
+      "breathing": "nasal_only",
+      "position": "supine or seated"
+    },
+    "breathing_short_set": {
+      "breaths": 4,
+      "pattern": "slow nasal breaths",
+      "notes": "use after stretching"
+    },
+    "breathing_6_breaths": {
+      "breaths": 6,
+      "pattern": "inhale 4 sec, exhale 6 sec",
+      "position": "supine"
+    }
+  }
+}
+
